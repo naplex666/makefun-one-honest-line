@@ -5,7 +5,7 @@ import { writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 
 const line =
-  "Your 'quick question' has cost me three readings, and it is still neither quick nor one question.";
+  "You keep saying 'as mentioned above' — nothing was mentioned above.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
